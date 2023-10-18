@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+nav a {
+  color: black;
+  display: inline-block;
+  margin: 0 10px;
+}
+nav a:hover {
+  text-decoration: none;
+}
+body {
+  background-color: #f0f0f0; /* Define a cor de fundo do corpo para cinza claro */
+}
+
+h1 {
+  color: black; /* Define a cor do texto do cabeçalho para azul */
+}
+:root {
+  --cor-fundo: #f0f0f0; /* Define uma variável para a cor de fundo */
+  --cor-texto: #000000; /* Define uma variável para a cor do texto */
+}
+
+  body {
+    background-color: orange;
+  }
+
+h1 {
+  color: var(--cor-texto); /* Usa a variável para a cor do texto */
+}
+.botao-azul {
+  background-color: #080808;
+  color: #fff;
+}
+
+.botao-verde {
+  background-color: #020202;
+  color: #fff;
+}
+
